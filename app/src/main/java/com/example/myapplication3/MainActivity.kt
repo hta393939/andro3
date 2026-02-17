@@ -49,6 +49,10 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                 text = "有効",
                 modifier = modifier
             )
+            Text(
+                text = "続く",
+                modifier = modifier
+            )
         }
     }
 }
